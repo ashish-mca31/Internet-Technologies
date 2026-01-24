@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm" novalidate>
+            <h2>Create Account</h2>
+            
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Ashish Sharma">
+                <span class="error" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="email@example.com">
+                <span class="error" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••">
+                <div id="strengthMeter">Strength: <span id="strengthText">None</span></div>
+                <span class="error" id="passError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+                <span class="error" id="dobError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="10-digit number" maxlength="10">
+                <span class="error" id="phoneError"></span>
+            </div>
+
+            <button type="submit" id="submitBtn">Register</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
