@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List (TypeScript)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="todo-container">
+    <h2>My To-Do List</h2>
+
+    <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <input type="date" id="dueDate">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="filters">
+        <button onclick="filterTasks('all')">All</button>
+        <button onclick="filterTasks('completed')">Completed</button>
+        <button onclick="filterTasks('pending')">Pending</button>
+    </div>
+
+    <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
