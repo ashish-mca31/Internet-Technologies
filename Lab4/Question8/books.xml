@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book>
+        <title>HTML Basics</title>
+        <author>John Smith</author>
+        <genre>Technology</genre>
+        <price>450</price>
+        <date>2022-05-10</date>
+    </book>
+
+    <book>
+        <title>Advanced HTML</title>
+        <author>John Smith</author>
+        <genre>Technology</genre>
+        <price>550</price>
+        <date>2023-02-15</date>
+    </book>
+
+    <book>
+        <title>Learning JavaScript</title>
+        <author>Emily Brown</author>
+        <genre>Technology</genre>
+        <price>600</price>
+        <date>2021-03-15</date>
+    </book>
+
+    <book>
+        <title>Modern CSS</title>
+        <author>Emily Brown</author>
+        <genre>Technology</genre>
+        <price>500</price>
+        <date>2022-11-20</date>
+    </book>
+
+    <book>
+        <title>World History</title>
+        <author>David Clark</author>
+        <genre>History</genre>
+        <price>350</price>
+        <date>2020-08-20</date>
+    </book>
+
+    <book>
+        <title>Indian Freedom Movement</title>
+        <author>Ramachandra Guha</author>
+        <genre>History</genre>
+        <price>700</price>
+        <date>2019-07-12</date>
+    </book>
+
+    <book>
+        <title>Wings of Fire</title>
+        <author>A.P.J. Abdul Kalam</author>
+        <genre>Biography</genre>
+        <price>400</price>
+        <date>2015-01-05</date>
+    </book>
+
+    <book>
+        <title>The Guide</title>
+        <author>R.K. Narayan</author>
+        <genre>Fiction</genre>
+        <price>300</price>
+        <date>2018-09-10</date>
+    </book>
+
+    <book>
+        <title>Midnight's Children</title>
+        <author>Salman Rushdie</author>
+        <genre>Fiction</genre>
+        <price>650</price>
+        <date>2017-06-18</date>
+    </book>
+
+    <book>
+        <title>Data Structures Made Easy</title>
+        <author>Shiv Kumar</author>
+        <genre>Technology</genre>
+        <price>480</price>
+        <date>2023-04-22</date>
+    </book>
+
+</catalog>
