@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    background-color: #e6f0ff;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+}
+
+th {
+    background-color: #cccccc;
+}
