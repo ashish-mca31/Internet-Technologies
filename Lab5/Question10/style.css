@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+.company-title {
+    text-align: center;
+    padding: 30px 0;
+    background: #1a237e;
+    color: white;
+    margin: 0;
+}
+
+.tab-container {
+    width: 90%;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+}
+
+.tabs {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tabs li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tabs li:hover {
+    background: #eaeaea;
+}
+
+.active-tab {
+    background: #1a237e;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+    line-height: 1.6;
+}

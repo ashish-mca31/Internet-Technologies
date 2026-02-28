@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AshTech IT Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<h1 class="company-title">AshTech IT Solutions</h1>
+
+<div class="tab-container" id="companyTabs">
+
+    <ul class="tabs">
+        <li data-tab="home">Home</li>
+        <li data-tab="services">Services</li>
+        <li data-tab="contact">Contact</li>
+    </ul>
+
+    <div class="tab-content" id="home">
+        <h2>Welcome to AshTech</h2>
+        <p>AshTech IT Solutions is a leading software development company delivering innovative and scalable technology solutions worldwide.</p>
+
+        <h3>Our Expertise</h3>
+        <ul>
+            <li>Enterprise Web Application Development</li>
+            <li>Mobile App Development (Android & iOS)</li>
+            <li>Cloud Computing & DevOps</li>
+            <li>Cybersecurity & Data Protection</li>
+        </ul>
+
+        <p>With a team of skilled engineers and consultants, we help businesses achieve digital transformation through cutting-edge technology.</p>
+    </div>
+
+    <div class="tab-content" id="services">
+        <h2>Our Services</h2>
+
+        <h3>Custom Software Development</h3>
+        <p>We design and develop secure, scalable, and high-performance applications tailored to your business needs.</p>
+
+        <h3>Cloud Solutions</h3>
+        <p>Cloud migration, infrastructure setup, monitoring, and maintenance using AWS and Azure platforms.</p>
+
+        <h3>IT Consulting</h3>
+        <p>Strategic technology consulting to help organizations optimize processes and improve productivity.</p>
+
+        <h3>Support & Maintenance</h3>
+        <p>24/7 monitoring, system updates, and long-term technical support.</p>
+    </div>
+
+    <div class="tab-content" id="contact">
+        <h2>Contact Us</h2>
+
+        <p><strong>Email:</strong> contact@ashtech.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Address:</strong> Hyderabad, India</p>
+
+        <h3>Business Hours</h3>
+        <p>Monday – Friday: 9:00 AM – 6:00 PM</p>
+
+        <h3>Why Partner With Us?</h3>
+        <ul>
+            <li>Experienced Development Team</li>
+            <li>Transparent Communication</li>
+            <li>On-Time Project Delivery</li>
+            <li>Customer-Centric Approach</li>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#companyTabs").myTabs({
+            activeClass: "active-tab",
+            animationSpeed: 300,
+            defaultTab: 0
+        });
+    });
+</script>
+
+</body>
+</html>

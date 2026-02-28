@@ -1,0 +1,155 @@
+{
+  "fields": [
+    {
+      "id": "name",
+      "label": "Full Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "email",
+      "label": "Email Address",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "password",
+      "label": "Password",
+      "type": "password",
+      "required": true
+    },
+    {
+      "id": "country",
+      "label": "Country",
+      "type": "select",
+      "options": [
+        "Select Country",
+        "USA",
+        "India",
+        "UK",
+        "Canada",
+        "Australia",
+        "Germany",
+        "France",
+        "Japan"
+      ],
+      "required": true
+    },
+    {
+      "id": "state",
+      "label": "State",
+      "type": "select",
+      "options": [
+        "Select State"
+      ],
+      "dependsOn": "country",
+      "required": true
+    }
+  ],
+  "stateMap": {
+    "USA": [
+      "California",
+      "Texas",
+      "New York",
+      "Florida",
+      "Illinois",
+      "Ohio",
+      "Georgia",
+      "Washington",
+      "Arizona",
+      "Virginia",
+      "Michigan"
+    ],
+    "India": [
+      "Maharashtra",
+      "Karnataka",
+      "Telangana",
+      "Tamil Nadu",
+      "Gujarat",
+      "Delhi",
+      "Punjab",
+      "Rajasthan",
+      "Kerala",
+      "West Bengal",
+      "Uttar Pradesh"
+    ],
+    "UK": [
+      "England",
+      "Scotland",
+      "Wales",
+      "Northern Ireland",
+      "Greater London",
+      "Midlands",
+      "Yorkshire",
+      "Cornwall",
+      "Essex",
+      "Kent",
+      "Surrey"
+    ],
+    "Canada": [
+      "Ontario",
+      "Quebec",
+      "British Columbia",
+      "Alberta",
+      "Manitoba",
+      "Saskatchewan",
+      "Nova Scotia",
+      "New Brunswick",
+      "Newfoundland",
+      "PEI",
+      "Nunavut"
+    ],
+    "Australia": [
+      "New South Wales",
+      "Victoria",
+      "Queensland",
+      "Western Australia",
+      "South Australia",
+      "Tasmania",
+      "ACT",
+      "Northern Territory",
+      "Gold Coast",
+      "Sunshine Coast",
+      "Newcastle"
+    ],
+    "Germany": [
+      "Bavaria",
+      "Berlin",
+      "Hamburg",
+      "Hesse",
+      "Saxony",
+      "Baden-Württemberg",
+      "Bremen",
+      "Saarland",
+      "Thuringia",
+      "Brandenburg",
+      "North Rhine-Westphalia"
+    ],
+    "France": [
+      "Île-de-France",
+      "Provence-Alpes-Côte d'Azur",
+      "Brittany",
+      "Normandy",
+      "Grand Est",
+      "Occitanie",
+      "Hauts-de-France",
+      "Corsica",
+      "Centre-Val de Loire",
+      "Burgundy",
+      "Pays de la Loire"
+    ],
+    "Japan": [
+      "Tokyo",
+      "Osaka",
+      "Kyoto",
+      "Hokkaido",
+      "Fukuoka",
+      "Aichi",
+      "Hyogo",
+      "Chiba",
+      "Saitama",
+      "Kanagawa",
+      "Hiroshima"
+    ]
+  }
+}
